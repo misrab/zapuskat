@@ -3,6 +3,10 @@
 
 echo "Welcome monkfish..."
 
+# see http://jonls.dk/redshift/
+echo "Starting redshift, for a warmer screen."
+redshift-gtk &
+
 
 while read line
 do 
